@@ -464,7 +464,8 @@
      -webkit-box-align: center;
          -ms-flex-align: center;
              align-items: center;
-     height: 100vh;
+     height: 100%;
+     padding-top: 130px;
      width: 100%;
      position: relative;
  }
@@ -1587,6 +1588,12 @@
     }
     .slick-center .slide-desc {
         bottom: 0;
+    }
+    .controls-navigate svg {
+        height: 30px !important
+    }
+    .controls {
+        top: 36px !important
     }
 }
 
