@@ -175,7 +175,7 @@
             return '<button class="nav__item"></button>';
           },
           speed: 800,
-          autoplaySpeed: 3300,
+          autoplaySpeed: 2500,
           autoplay: true,
           arrows: false,
           cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
