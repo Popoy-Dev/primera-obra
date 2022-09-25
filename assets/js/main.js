@@ -174,8 +174,8 @@
           customPaging : function(slider, i) {
             return '<button class="nav__item"></button>';
           },
-          speed: 600,
-          autoplaySpeed: 6000,
+          speed: 800,
+          autoplaySpeed: 4000,
           autoplay: true,
           arrows: false,
           cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
