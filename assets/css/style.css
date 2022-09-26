@@ -1596,7 +1596,102 @@
         top: 36px !important
     }
 }
+@media screen and (max-width: 415px) {
+    .slide {
+        width: 32vh !important;
+        height: 23vh !important;
+    }
+ }
+ @media screen and (max-width: 415px)  {
+    .slide {
+        width: 31vh !important;
+        height: 23vh !important;
+    }
+ }
 
+ @media screen and (max-width: 361px) {
+    .slide {
+        width: 33vh !important;
+        height: 23vh !important;
+    }
+ }
+ @media screen and (max-width: 281px) {
+    .slide {
+        width: 22vh !important;
+        height: 12vh !important;
+    }
+ }
+
+ @media screen and (max-width: 821px) and (min-width: 770px)  {
+    .slide {
+        width: 48vh !important;
+        height: 38vh !important;
+    }
+
+  }
+  @media screen and (max-width: 913px) and (min-width: 822px)  {
+    .slide {
+        width: 45vh !important;
+        height: 35vh !important;
+    }
+
+  }
+
+  @media screen and (max-width: 769px) and (min-width: 416px)  {
+    .slide {
+        width: 52vh !important;
+        height: 42vh !important;
+    }
+    .controls-navigate svg {
+        height: 55px !important
+    }
+
+  }
+
+  @media screen and  (max-width: 415px)   { 
+.nav-trigger {
+    font-size: 1.2rem;
+}
+  }
+  
+  @media screen and  (min-width: 415px) and (max-width: 821px)   { 
+    .nav-trigger {
+        font-size: 2.8rem;
+    }
+    .logo-style {
+        font-size: 3.0rem;
+    }
+      }
+
+      @media screen and  (min-width: 822px) and (max-width: 1024px)   { 
+        .nav-trigger {
+            font-size: 3.2rem;
+        }
+        .logo-style {
+            font-size: 3.6rem;
+        }
+    }
+    
+
+
+@media screen and (max-width: 376px) and (min-width: 362px)  {
+    .slide {
+        width: 38vh !important;
+        height: 28vh !important;
+    }
+    .slide-desc h2 {
+        font-size: 4vmin !important;
+    }
+    .slick-center .slide-desc {
+        bottom: 0;
+    }
+    .controls-navigate svg {
+        height: 30px !important
+    }
+    .controls {
+        top: 36px !important
+    }
+}
  @media only screen and (max-width: 1430px) {
      .sub-menu ul {
          left: calc(-100% - 2px);
@@ -1628,7 +1723,7 @@
        height: 40px;
        display: block;
        float: right;
-       font-size: 1.2rem;
+    
        text-transform: uppercase;
        color: #525f7f;
        font-weight: bold;
