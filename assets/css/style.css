@@ -1596,12 +1596,7 @@
         top: 36px !important
     }
 }
-@media screen and (max-width: 415px) {
-    .slide {
-        width: 32vh !important;
-        height: 23vh !important;
-    }
- }
+
  @media screen and (max-width: 415px)  {
     .slide {
         width: 31vh !important;
@@ -1646,14 +1641,7 @@
         height: 55px !important
     }
 
-  }
-
-  @media screen and  (max-width: 415px)   { 
-.nav-trigger {
-    font-size: 1.2rem;
-}
-  }
-  
+  }  
   @media screen and  (min-width: 415px) and (max-width: 821px)   { 
     .nav-trigger {
         font-size: 2.8rem;
